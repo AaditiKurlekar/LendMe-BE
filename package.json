@@ -1,0 +1,36 @@
+{
+    "dependencies": {
+        "@sentry/node": "^7.55.2",
+        "bcrypt": "^5.1.0",
+        "cloudinary": "^1.37.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-validator": "^7.0.1",
+        "init": "^0.1.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.2.1",
+        "nodemailer": "^6.9.3",
+        "passport": "^0.6.0",
+        "passport-jwt": "^4.0.1",
+        "pg": "^8.11.0",
+        "puppeteer": "^20.8.1",
+        "razorpay": "^2.9.0",
+        "sequelize": "^6.32.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22",
+        "sequelize-cli": "^6.6.1"
+    },
+    "scripts": {
+        "start": "nodemon src/server.js",
+        "start-http": "nodemon src/http-server.js"
+    },
+    "name": "lendme-backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
+}
